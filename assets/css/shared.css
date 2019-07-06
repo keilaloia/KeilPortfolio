@@ -1,0 +1,32 @@
+body 
+{ 
+    font-family: 'Raleway';
+    margin:0px;
+    padding:0px; 
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+#header-title
+{
+    /* text-align: center; */
+    padding-top: 20px;    
+    width:100vw;
+    
+
+}
+#header-text
+{
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+
+}
+#header-underline
+{
+    width: 70px;
+    height: 4px;
+    background: #444649;
+    margin: auto;
+
+}

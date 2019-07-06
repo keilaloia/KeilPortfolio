@@ -1,0 +1,102 @@
+
+/* home page */
+#home
+{  
+    
+    width: 100vw;
+    height: 115vh;
+    background: linear-gradient(45deg, #720000, #9932CC, #007272);
+    background-size: 250% 250%;
+    animation: Gradient 15s ease infinite;
+    position: relative;
+}
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+#home-text
+{
+
+    width: 50%;
+    position: absolute;
+    color: #ffffff;
+    text-align: center;
+    top: 50%;
+    left: 25%;
+    right: auto;
+    font-size: 20px;
+}
+#home-name
+{
+    color: orangered ;
+    font-size: 25px;
+
+}
+#home-btn
+{
+    margin-top: 15px;
+}
+.btn-link
+{
+    background-color: rgba(0,0,0,.5);
+    color: #ffffff;
+    border: #ffffff solid 2px;
+    border-radius: 15px;
+    font-size: 20px;
+    width: 200px;
+    height: 40px;
+}
+.btn-link:hover { 
+    color: #E31B6D;
+    border:#E31B6D solid 2px;
+}
+.btn-link:active 
+{ 
+    color: red;
+    border:red solid 2px;
+}
+/* link bar */
+#links
+{
+    width: 95vw;
+    height: 3%;
+    background: #1b242f;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-bottom: #8A2BE2 3px solid;
+    padding-top: 1%;
+    padding-left: 5%
+}
+nav a
+{
+
+    margin: 20px;
+    bottom: 0;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    
+}
+a:hover 
+{ 
+    color: #E31B6D;
+}
+a:active 
+{
+    color: red;
+}
+/* about */
+
+
+/* Projects */
+
+
+
