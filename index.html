@@ -11,10 +11,13 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/shared.css">
     <link rel="stylesheet" href="assets/css/home.css">
     <link rel="stylesheet" href="assets/css/about.css">
     <link rel="stylesheet" href="assets/css/projects.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" href="assets/css/shared.css">
+
+
 
 
 </head>
@@ -29,25 +32,23 @@
             <nav id="links">
                 <a class="page-link" href="#home">home</a>
                 <a class="page-link" href="#about">about</a>
-                <a class="page-link" href="#home">projects</a>
-                <a class="page-link" href="#home">contact</a>
+                <a class="page-link" href="#projects">projects</a>
+                <a class="page-link" href="#contact">contact</a>
             </nav>
         </div>
         <div id="about">
+
             <div class="animated slideInLeft slower" id="header-title">
                 <h1 id="header-text">ABOUT</h1>
                 <h2 class="animated fadeIn delay-1s" id="header-underline"></h2>
             </div>
             <div class="animated slideInLeft slower" id="icon-holder">
-                <div class="icon-wrapper animated">
-                    <i class="icon fab fa-linkedin fa-3x"></i>
-                </div>
-                <div class="icon-wrapper animated">
-                    <i class="icon fab fa-github fa-3x"></i>
-                </div>
-                <div class="icon-wrapper animated">
-                    <i class="icon far fa-envelope fa-3x"></i>
-                </div>
+                <a class="icon-wrapper animated" href="https://www.linkedin.com/in/keilaloia/" target="_blank"
+                    style="text-decoration: none;"> <i class="icon fab fa-linkedin fa-3x"></i> </a>
+                <a class="icon-wrapper animated" href="https://github.com/keilaloia" target="_blank"
+                    style="text-decoration: none;"> <i class="icon fab fa-github fa-3x"></i> </a>
+                <a class="icon-wrapper animated" href="assets/media/KeilAloiaResumeN copy.pdf" target="_blank"
+                    style="text-decoration: none;"> <i class="icon far fa-file fa-3x" id="doc"></i></a>
             </div>
 
             <div id="about-me">
@@ -123,32 +124,66 @@
 
             <div id="project-container">
                 <div class="animated slideInLeft slower" id="project-header">
-                    <div class="section-holder" id="all">All</div>
+                    <div class="section-holder" id="all"><span>All</span></div>
                     <div class="section-holder" id="javascript">javascript</div>
                     <div class="section-holder" id="csharp">C#</div>
                     <div class="section-holder" id="cplusplus">C++</div>
-                    
+
                 </div>
                 <h2 class="animated fadeIn delay-2s" id="project-underline"></h2>
                 <div id="sticker-wrapper">
-                        <img class="project-sticker"src="assets/media/repair.png" alt="repairbot">
-                        <img class="project-sticker"src="assets/media/cave.png" alt="cave">
-                        <img class="project-sticker"src="assets/media/market.gif" alt="marketplayce">
-                        <img class="project-sticker"src="assets/media/neon.png" alt="neonninja">
-                        <img class="project-sticker"src="assets/media/cave.png" alt="placeholder">
-                        <img class="project-sticker"src="assets/media/cave.png" alt="placeholder">
-        
-        
-        
+                    <img class="project-sticker csharp" src="assets/media/repair.png" alt="repairbot">
+                    <img class="project-sticker csharp" src="assets/media/cave.png" alt="cave">
+                    <img class="project-sticker cplusplus" src="assets/media/market.gif" alt="marketplayce">
+                    <img class="project-sticker cplusplus" src="assets/media/neon.png" alt="neonninja">
+                    <img class="project-sticker javascript" src="assets/media/cave.png" alt="placeholder">
+                    <img class="project-sticker javascript" src="assets/media/cave.png" alt="placeholder">
                 </div>
             </div>
+        </div>
+        <div id="contact">
+            <div class="animated slideInLeft slower" id="header-title">
+                <h1 id="header-text">Contact</h1>
+                <h2 class="animated fadeIn delay-1s" id="header-underline"></h2>
+                <h2 class="animated fadeIn delay-1s" id="question">Have a question or opportunities?</h2>
 
+            </div>
+            <form id="inputbox">
+                <br>
+                <input class="userinput" type="text" id="name" value="Name">
+                <br>
+                <input class="userinput" type="email" id="email" value="Enter Email">
+                <br>
+                <textarea class="userinput" id="usermessage" type="text" id="message"
+                    placeholder="Your Message!"></textarea>
+                <br>
+                <input class="userinput" id="usersubmit" type="submit" value="Submit">
 
+            </form>
 
         </div>
 
+        <div id="footer">
+            <div id="homebtnwrapper">
+                <div id="homebtn">
 
+                    <a class="page-link" href="#home"> <i class="fas fa-home fa-3x" id="weird"></i> </a>
+                </div>
+            </div>
+            <div class="animated fadeIn delay-1s" id="icon-holder">
+                <a class="icon-wrapper animated" href="https://www.linkedin.com/in/keilaloia/" target="_blank"
+                    style="text-decoration: none;"> <i class="icon fab fa-linkedin fa-3x"></i> </a>
+                <a class="icon-wrapper animated" href="https://github.com/keilaloia" target="_blank"
+                    style="text-decoration: none;"> <i class="icon fab fa-github fa-3x"></i> </a>
+                <a class="icon-wrapper animated" href="assets/media/KeilAloiaResumeN copy.pdf" target="_blank"
+                    style="text-decoration: none;"> <i class="icon far fa-file fa-3x" id="doc"></i></a>
+            </div>
+
+            <!-- <span>Keil Aloia</span> -->
+        </div>
     </div>
+
+    <script src="assets/javascript/logic.js"></script>
 </body>
 
 </html>

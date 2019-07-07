@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+  }
 body 
 { 
     font-family: 'Raleway';
@@ -10,7 +13,7 @@ body
 #header-title
 {
     /* text-align: center; */
-    padding-top: 20px;    
+    padding-top: 5%;    
     width:100vw;
     
 
@@ -28,5 +31,114 @@ body
     height: 4px;
     background: #444649;
     margin: auto;
+
+}
+#icon-holder
+{
+   margin-left: 10vw;
+}.icon-wrapper
+{
+    height: 90px;
+    width: 90px;
+    display: inline-flex;
+    /* margin-left: 15vw; */
+    border: teal 10px solid;
+    margin-left: 15vw;
+    margin-top: 5%;
+    background-color: #1b242f;
+    color: teal;
+    transform: rotate(-45deg);
+    
+}
+.icon
+{
+    transform: rotate(45deg);
+    padding-top:14.5px;
+    padding-left:19.5px;
+    
+
+}
+
+.icon-wrapper:hover
+{
+    color: #E31B6D;
+    border:#E31B6D 10px solid;
+    transform: rotate(-45deg);
+}
+.icon-wrapper:active
+{
+    color: red;
+    border:red 10px solid;
+    transform: rotate(-45deg);
+
+}
+#doc
+{
+    
+    padding-top:12px;
+    padding-left:25px;
+}
+/* FOOTER */
+#footer
+{
+
+    height: 50vh;
+    width: 100vw;
+    background-color: black;
+    bottom: 0;
+
+}
+#homebtnwrapper
+{
+    height: 60px;
+    width: 60px;
+    border: teal 10px solid;
+    margin-left: 47.9vw;
+    /* padding-bottom: -10%; */
+    background-color: #1b242f;
+    color: teal;
+    transform: rotate(-45deg);
+}
+#homebtn
+{
+    transform: rotate(45deg);
+    padding-top:4.5px;
+    padding-left:4.5px;
+    
+    /* color: teal; */
+
+    
+}
+#homebtnwrapper:hover
+{
+    color: #E31B6D;
+    border:#E31B6D 10px solid;
+    transform: rotate(-45deg);
+}
+
+#homebtnwrapper:active
+{
+    color: red;
+    border:red 10px solid;
+    transform: rotate(-45deg);
+
+}
+#weird
+{
+    color: teal;
+
+}
+#weird:hover
+{
+    color: #E31B6D;
+    /* border:#E31B6D 10px solid; */
+    /* transform: rotate(-45deg); */
+}
+
+#weird:active
+{
+    color: red;
+    /* border:red 10px solid; */
+    /* transform: rotate(-45deg); */
 
 }

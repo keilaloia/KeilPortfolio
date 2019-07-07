@@ -63,14 +63,22 @@
     border:red solid 2px;
 }
 /* link bar */
+/* .sticky
+{
+    position: fixed;
+    top: 0;
+
+
+} */
 #links
 {
+    z-index: 99;
     width: 95vw;
     height: 3%;
     background: #1b242f;
     position: absolute;
     bottom: 0;
-    left: 0;
+    /* left: 0; */
     border-bottom: #8A2BE2 3px solid;
     padding-top: 1%;
     padding-left: 5%
@@ -93,10 +101,4 @@ a:active
 {
     color: red;
 }
-/* about */
-
-
-/* Projects */
-
-
 
